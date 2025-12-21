@@ -8,7 +8,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven { setUrl("https://jitpack.io") }
+        maven { url = uri("https://jitpack.io") }
     }
     dependencies {
         classpath(libs.gradle)
