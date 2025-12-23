@@ -80,11 +80,11 @@ android {
         compose = true
         buildConfig = true
     }
-
+// Bruh for .apk make isEnable= true !!!!
 // build variants and stuff
     splits {
         abi {
-            isEnable = true
+            isEnable = false
             reset()
 
             include("x86_64", "x86", "armeabi-v7a", "arm64-v8a")
